@@ -1,0 +1,67 @@
+/* Font*/
+@font-face{
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* général */
+
+h1, h2, h3 {
+	font-family: "Ubuntu";
+	color: #ffb42b;
+	text-shadow: 4px 4px 2px #EEE;
+}
+/*
+h1{font-size: 2vw}
+h3{font-size: 1.8vw}
+*/
+p {
+	font-family: "Roboto";
+	color: #555;
+	text-align: center;
+	/*font-size: 1.1vw;*/
+}
+
+/* containers */
+
+.container {
+	position: absolute;
+	/*display: flex;
+	flex-direction: column;
+	align-items: center;*/
+	width: 40vw;
+	/*border: 1px solid rgba(34, 34, 34, 0.2);*/
+	box-shadow: 4px 4px 4px rgba(34, 34, 34, 0.3);
+	border-radius: 20px;
+	padding: 0px 20px;
+	transition: .2s;
+}
+
+div:last-child {
+	background-color: red;
+	margin-bottom: 25vh;
+}
+
+#block1 {
+
+}
+
+#block2 {
+	
+}
+
+#block3 {
+	
+}
+
+#block4 {
+	
+}
+
+#block5 {
+	
+}
+
+#block6 {
+
+}
